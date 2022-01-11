@@ -1,0 +1,3 @@
+= Document Management System
+Jonas Hess <hes@ti8m.com>
+:description: A programm to manage scanned documents.

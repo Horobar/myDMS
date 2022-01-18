@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+>
+<head>
+    <meta charset="UTF-8">
+    <title>Horobars DMS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords"
+          content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive"/>
+
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}">
+    <!-- master.css  -->
+    <link rel="stylesheet" th:href="@{/css/master.css}">
+    <!-- Bootstrap -->
+<body>
+<div class="wrapper">
+    <div class="filePicker">
+        <div th:insert="fragments/fileList :: fileList(${files})"></div>
+    </div>
+    <div class="fileShower">
+        <textarea th:text="${files[0].content}"></textarea>
+    </div>
+    <div class="propertyEditor">
+
+    </div>
+</div>
+
+
+</body>
+</html>

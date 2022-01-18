@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "horobar.office.dms",
+      "type": "java.lang.String",
+      "description": "Description for horobar.office.dms."
+    },
+    {
+      "name": "horobar.office.dms.home",
+      "type": "java.lang.String",
+      "description": "Description for horobar.office.dms.home."
+    }
+  ] }

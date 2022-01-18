@@ -1,3 +1,28 @@
-= Document Management System
+= Horobars DMS(1)
 Jonas Hess <hes@ti8m.com>
+v1.0.0
 :description: A programm to manage scanned documents.
+:url-repo: https://github.com/Horobar/myDMS
+:imagesdir: images
+
+== Idee
+Dieses Programm soll Files die mit einer bestimmten Namenskonvention im Input-Ordner gespeichert werden, erkennen und archivieren. Dabei wrd ein Filesystem angelegt, dass sowohl für den Computer als auch für Menschen durchsuchbar ist. Den Files sollen zusätzliche Attribute wie Absender, Dokumentart oder Datum hinzugefügt werden.
+
+In einem zweiten Schritt wird ein trainiertes Tessaract OCR Modul hinzugefügt, um die als Tiff gescannten  Dokumente durchsuchbar zu machen.
+
+
+== Erste Iteration
+=== Anforderungen
+image::horo_dms_useCase.svg[]
+
+=== Ablauf Dokument einlesen
+image::arbeitsablauf.svg[]
+
+=== Wireframe DMS-Seite
+image::dms_main_wireframe.svg[]
+
+
+
+
+
+

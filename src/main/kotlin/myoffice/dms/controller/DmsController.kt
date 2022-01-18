@@ -19,6 +19,8 @@ class DmsController(
     fun fileList(): List<FileModel> = fileCollectorService.listFiles()
 
 
+
+
     @GetMapping("/")
     fun getDms(request: HttpServletRequest): ModelAndView{
         val modelAndView = ModelAndView("dmsMain")
